@@ -1,2 +1,2 @@
 /esp/secrets.py
-pi/assets
+pi/assets/*.m*
