@@ -4,8 +4,7 @@ Shows a video when a big red button is pressed.
 
 ## RaspberryPi
 
-    sudo apt install python3-gpiozero -y
-
+    sudo apt install screen python3-gpiozero omxplayer omxd fbi -y
 
 ## ESP Microcontroller
 
