@@ -10,9 +10,7 @@ subprocess.call(['sudo', 'bin/show_waiting.sh'])
 
 def pressed():
     print("pressed")
-    subprocess.call(['sudo', 'bin/show_loading.sh'])
-    subprocess.call(['omxplayer', 'assets/SM_DE.mp4'])
-    subprocess.call(['sudo', 'bin/show_waiting.sh'])
+    subprocess.call(['omxplayer', 'assets/small.mp4'])
 
 button.when_pressed = pressed
 
